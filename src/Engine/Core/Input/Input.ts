@@ -10,7 +10,7 @@ export class Input
 
     private constructor() {}
 
-    public static InitFromBrowserWindow(browserWindow: Window): Input
+    public static initFromBrowserWindow(browserWindow: Window): Input
     {
         const input = new Input();
 
